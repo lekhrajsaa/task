@@ -1,0 +1,16 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "TASK 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index.js"
+  },
+  "author": "JEFFREY ANTHONY MUKKATH",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "pg": "^8.8.0"
+  }
+}

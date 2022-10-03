@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+.container {
+  font-family: "roboto", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.sub-container {
+  width: 1500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font: inherit;
+  font-size: 40px;
+}
+
+.btn {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  max-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background-color: #1ed760;
+  height: 50px;
+}
+
+.btn:hover {
+  transform: scale(1.04);
+  background-color: #21e065;
+}
+
+.tablename {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 0 !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.tablecin {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
